@@ -1,0 +1,19 @@
+# Site settings
+title: miguelsr
+email: miguelsr87@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  I plan to blog about ES6, JS and maybe other things.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://miguelsr.github.io" # the base hostname & protocol for your site
+twitter_username: MiguelSR1987
+github_username:  MiguelSR
+
+# Build settings
+markdown: kramdown
+
+defaults:
+  scope:
+    path: ""
+    type: "posts"
+  values:
+    comments: true
