@@ -1,19 +1,70 @@
-# Site settings
-title: miguelsr
-email: miguelsr87@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  I plan to blog about ES6, JS and maybe other things.
+# SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://miguelsr.github.io" # the base hostname & protocol for your site
-twitter_username: MiguelSR1987
-github_username:  MiguelSR
 
-# Build settings
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: miguelsr
+  avatar: avatar.png
+  gravatar: # Email MD5 hash
+  description: "A place to blog" # used by search engines
+
+  # Header and footer text
+  header_text: >
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  header_text_feature_image:
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+
+  # Icons
+  rss: false
+  email_address: miguelsr87@gmail.com
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: "MiguelSR"
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: MiguelSR1987
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
 markdown: kramdown
-
-defaults:
-  scope:
-    path: ""
-    type: "posts"
-  values:
-    comments: true
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
