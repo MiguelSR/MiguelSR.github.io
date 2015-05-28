@@ -7,7 +7,11 @@ article,
 }
 article {
   .highlight {
-    word-break: keep-all; 
+    word-wrap: normal; 
+    font-size: 0.8em;
+  }
+  span {
+    white-space: normal !important;
   }
 }
 article {
