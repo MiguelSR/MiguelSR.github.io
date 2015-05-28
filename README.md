@@ -1,3 +1,3 @@
 # MiguelSR.github.io
 
-This is a site where I plan to blog about JS mainly.
+Just my GitHub page, an amazing blog written in Spanish where I talk about JavaScript (and maybe other things as well).
