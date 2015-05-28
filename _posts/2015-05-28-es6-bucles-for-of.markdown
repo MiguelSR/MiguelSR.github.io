@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: true
-title:  "EcmaScript 6: Bucles for-of"
+title:  "EcmaScript 6: Bucles for..of"
 date:   2015-05-28 21:45:00
 categories: js es6 for-of
 tags: js es6 for-of
 ---
 Mi principal motivación para hacer este blog es escribir acerca de ES6. Concretamente, escribir acerca de ES6 siguiendo el hilo de los artículos que están publicando en [Mozilla Hacks][mozilla_hacks], al menos por ahora. No voy a entrar en detalle de qué es EcmaScript, pero para hacer una aproximación burda, digamos que es una actualización esperada durante años que llega justo cuando JavaScript es el lenguaje de moda. Para más info, nada más que buscar por ahí. Comentemos una interesante novedad de ES6.
 
-**Bucles for-of**
+**Bucles for..of**
 
 En algunas entrevistas de trabajo me han preguntado, *¿cómo recorrerías un array en JavaScript?*. La pregunta tiene su rollo, ya que se puede responder de distintas maneras. Cada una tiene sus particularidades, que especifico más o menos en los comentarios del código.
 

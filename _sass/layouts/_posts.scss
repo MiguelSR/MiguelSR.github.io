@@ -6,6 +6,11 @@ article,
   width: 100%;
 }
 article {
+  .highlight {
+    word-break: keep-all; 
+  }
+}
+article {
   header {
     margin-bottom: 6%;
     text-align: center;
