@@ -2,11 +2,13 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Como muchos otros desarrolladores web, tuve que aprender JavaScript porque no me quedaba otro remedio. A raíz de esta inseguridad, empecé haciendo todo lo que podía en "la parte de atrás", evitando el -para mí- caótico y misterioso JavaScript.
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+Con los años empecé a pillarle el rollo a eso de los callbacks, los deferreds y demás cositas variadas de JS y jQuery. Muchos años después y ahora que lo comprendo bien, es sin duda el lenguaje en el que mejor me lo paso programando.
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+Como me apetecía hablar un poco de JS en general y de las novedades de ES6 en particular, he decidido hacerme este blog.
+Para una introducción al lenguaje, buscar en Google. Para perderle miedo una vez que se comprenda un poco, leer el clásico "JavaScript: the good parts" de [Douglas Crockford](http://javascript.crockford.com/).
+
+Por cierto, este blog está hecho con [Jekyll](http://jekyllrb.com/), y la plantilla es [Type Theme](https://rohanchandra.github.io/project/type/).
