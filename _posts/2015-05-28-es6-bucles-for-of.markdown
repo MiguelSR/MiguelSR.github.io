@@ -83,7 +83,7 @@ for (var letter of "foobar") {
 }
 {% endhighlight %}
 
-Me encanta que ya haya una manera directa y concisa de recorrer arrays en JavaScript. Por otro lado, creo que va a ser una fuente de confusiones. No obstante, a día de hoy es tal el lío, que una manera más de hacerlo sólo hará un poco más divertida la situación.
+Me encanta que ya haya una manera directa y concisa de recorrer arrays en JavaScript. Por otro lado, creo que va a ser una fuente de confusiones. No obstante, a día de hoy es tal el lío, que una manera más de recorrerlos sólo hará un poco más divertida la situación.
 
 Para el siguiente artículo hablaré de los iteradores.  Mientras tanto, no dejéis de visitar el blog de Mozilla; os dejo el [artículo de inspiración][inspiracion], el cual en cierto modo he fusilado y recortado.
 
