@@ -48,7 +48,7 @@ myArray.forEach(function (value) {
 
 Así a bote pronto se me han ocurrido estos cinco. Posiblemente haya más. Además, la descripción ha sido somera, con lo cual seguro que me dejo locuras variadas que nadie se esperaría. Por ejemplo *each* de jQuery tiene [una manera de hacer break/continue un poco díscola][jquery_each].
 
-Para resolver este entuerto, a los sabios que diseñan JavaScript se le ha ocurrido una solución: *introducir una nueva manera de recorrer un array*
+Para resolver este entuerto, a los sabios que diseñan JavaScript se le ha ocurrido una solución: *introducir una nueva manera de recorrer un array*.
 
 {% highlight js %}
 // Así debemos recorrer los arrays a partír de ahora :)
