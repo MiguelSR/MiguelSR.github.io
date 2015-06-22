@@ -92,7 +92,7 @@ foo(undefined, "woof"); // "bar" "woof"
 foo("bar"); // "bar" "arg1 es bar"
 {% endhighlight %}
 
-No tengo nada más que decir de estas dos nuevas características de los parámetros en JavaScript.  Así que nada, ahí quedan estos dos nuevos usos de JavaScript. Son dos nuevas funcionalidades bastante sencillas pero sinceramente yo creo que [ya hera ora][ya_hera_ora]. Prescindir de *arguments* hará, sin duda, que nuestros programas sean más legibles.
+No tengo nada más que decir de estas dos nuevas características de los parámetros.  Así que nada, ahí quedan estos dos nuevas características de JavaScript. Son dos nuevas funcionalidades bastante sencillas pero sinceramente yo creo que [ya hera ora][ya_hera_ora]. Prescindir de *arguments* hará, sin duda, que nuestros programas sean más legibles.
 
 Por cierto, a 22 de Junio del 2015, esto aun no funciona en Google Chrome. Sin embargo, podéis trastear tranquilamente con la consola de Firefox, puesto que el navegador de Mozilla ya lo implementa.
 
