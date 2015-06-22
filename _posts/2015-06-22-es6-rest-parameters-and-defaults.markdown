@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "EcmaScript 6: Parámetros rest y por defecto"
+title:  "EcmaScript 6: Parámetros rest y parámetros por defecto"
 date:   2015-06-22 21:30:00
 tags: js es6 parameters rest defaults
 ---
