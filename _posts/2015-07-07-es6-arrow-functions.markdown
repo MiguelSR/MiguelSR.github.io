@@ -83,4 +83,4 @@ A los lectores más inquietos se le habrán ocurrido varias preguntas. *¿Qué p
 
 ¡A cuidarse!
 
-[fuente_original]: https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/
+[fuente_original]: https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/
