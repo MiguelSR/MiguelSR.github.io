@@ -79,7 +79,7 @@ console.log(odds); // Array [ 1, 3, 5 ]
 
 Tenemos una manera sencilla de ejecutar callbacks anónimos sin tener que hacer el trámite de guardar el valor de this, hacerle un bind a la función o lo que sea. Eso sí, la sintaxis es bastante parca, no tiene demasiado que ver con el **function** que usábamos hasta ahora. Me imagino que con el tiempo saldrán defensores y detractores, pero definitivamente creo que es un avance en el lenguaje. A mí particularmente me gusta.
 
-A los lectores más inquietos se le habrán ocurrido varias preguntas. *¿Qué pasa con **this**? ¿Y con **arguments**? ¿Devuelven algo las funciones que no sean inline? ¿Como encaja esto con la desestructuración?*. A todos ellos les animo a abrir la consola del Firefox y ponerse a caacharrear un ratillo. Después, cuando se hayan cansado, cogen y se leen [el artículo de Mozilla Hacks][fuente_original].
+A los lectores más inquietos se les habrán ocurrido varias preguntas. *¿Qué pasa con **this**? ¿Y con **arguments**? ¿Devuelven algo las funciones que no sean inline? ¿Como encaja esto con la desestructuración?*. A todos ellos les animo a abrir la consola del Firefox y ponerse a cacharrear un ratillo. Después, cuando se hayan cansado, que cojan y se lean [el artículo de Mozilla Hacks][fuente_original].
 
 ¡A cuidarse!
 
