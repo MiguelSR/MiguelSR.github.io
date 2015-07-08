@@ -1,19 +1,63 @@
-# Site settings
-title: miguelsr
-email: miguelsr87@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  I plan to blog about ES6, JS and maybe other things.
+# SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://miguelsr.github.io" # the base hostname & protocol for your site
-twitter_username: MiguelSR1987
-github_username:  MiguelSR
 
-# Build settings
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: miguelsr
+  avatar: gravatar.jpg
+  gravatar: # Email MD5 hash
+  description: "Blog de miguelsr, donde se habla de programación en general, y de las novedades de javascript y ecmascript en particular." # used by search engines
+
+  footer_text: <a href="http://miguelsr.js.org">miguelsr.js.org</a>
+
+  # Icons
+  rss: false
+  email_address: miguelsr87@gmail.com
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: "MiguelSR"
+  google_plus:
+  instagram:
+  linkedin: https://es.linkedin.com/in/miguelsr87
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: MiguelSR1987
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: UA-63513599-1
+  disqus_shortname: miguelsr
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Seguir"
+  str_rss_follow: "Seguir feed RSS"
+  str_email: "Email"
+  str_next: "Siguiente"
+  str_prev: "Anterior"
+  str_continue_reading: "Continuar leyendo"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
 markdown: kramdown
-
-defaults:
-  scope:
-    path: ""
-    type: "posts"
-  values:
-    comments: true
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed
