@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "EcmaScript 6: Funciones flecha"
 date:   2015-07-07 21:00:00
-tags: js es6 arrow functions funciones flecha
+tags: js es6 arrow functions funciones flecha this
 ---
 
 Las funciones flechas son sin lugar a dudas una de las novedades más esperadas de EcmaScript 6. Estoy seguro de que a la inmensa mayoría de las personas que alguna vez haya programado en JavaScript le suena este patrón.
