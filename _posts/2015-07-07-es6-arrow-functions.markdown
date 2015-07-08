@@ -31,7 +31,7 @@ O le sonarán las funciones **call** y **apply**, o **_.bindAll**, o **$.proxy**
 
 ¿Qué tienen en común todos estos ejemplillos? Pues bien, son maneras de forzar la ejecución de una función con un valor de **this** dado. Este es uno de los puntos claves de JavaScript. A muchos programadores que aun no comprenden el lenguaje les suele parecer bastante raro. Y es que *this*, toma un valor u otro dependiendo de **como se ejecute** una función, no de como se declare.
 
-¿A que viene esta lección gratuita de semejante obviedad? Primero, no está de mal recordarla. Segundo, nuestras **arrow functions**, de repente, anulan este concepto. Refactoricemos el código anterior usando una función flecha gorda.
+¿A que viene esta lección gratuita de semejante obviedad? Primero, no está de más recordarla. Segundo, nuestras **arrow functions**, de repente, anulan este concepto. Refactoricemos el código anterior usando una función flecha gorda.
 
 {% highlight js %}
 var myObject = {}
