@@ -40,7 +40,7 @@ Otra pausa para tomar algo y despejarnos un poco y última charla del día. Otra
 
 Creo que todo estuvo montado muy guay. Había mucha sensación de fiesta y colegueo, cosa que por otra parte me esperaba. Stands de empresas interesantes, cerveza, comida, juegos, regalos y sorpresas. Por no hablar de la cantidad de ponentes y el emplazamiento, de primer nivel. Como única pega podría decirse que en el hall y algunas salas a veces no llegaba el Wifi bien, pero es comprensible teniendo en cuenta que había más de 1000 individuos, cada uno con su smartphone y muchos con portátiles.
 
-Además, el clima acompañó, tal vez incluso más de la cuenta. Yo ayer me pegué un chapuzón en la playa de un pueblo aquí al lado y me quedé en la gloria. Eso sí, hoy Martes hay unos truenos que no presagian nada bueno, además del consabido **txirimiri**.
+Además, el clima acompañó, tal vez incluso más de la cuenta. Yo ayer me pegué un chapuzón en la playa de un pueblo aquí al lado y me quedé en la gloria. Eso sí, hoy Martes hay unos truenos que no presagian nada bueno, además del consabido *txirimiri*.
 
 Espero que os haya interesado este mini reportaje, voy pitando a seguir con las charlas de hoy Martes :)! Seguramente mañana haga un resumen un poquito más breve de lo que ha acontecido hoy.
 
