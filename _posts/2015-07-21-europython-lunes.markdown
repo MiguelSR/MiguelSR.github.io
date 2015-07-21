@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Europython: Lunes 20 de Julio"
+title:  "Europython 2015: I, Lunes 20 de Julio"
 date:   2015-07-21 08:45
 tags: python nojs europython rust jenkins react machine learning pip bilbao metrics elasticsearch
 ---
@@ -30,19 +30,19 @@ Siguiente charla, me voy a que el italiano [Valerio Maggio][valerio] me cuente u
 
 Después, nos vamos a comer, cafelillo y hacer un poco el moñas en el stand de Google, donde han montado una especie de trivial con regalitos y una barra con cervezas para el personal. Un hurra por Google. Al respecto de la comida, aperitivos de la tierra para que nativos y forasteros estemos contentos: tortilla, pimientos rellenos, jamón, ensalada... una vez más, bien por la organización del evento.
 
-14.30, sobremesa con [Dmtry Trofimov][dmitry] hablándonos de [como integrar nuestro Python con Rust][rust], un lenguaje de Mozilla que me está llamando la atención últimamente. Python es un lenguaje fabuloso, pero a veces necesitamos velocidad extra y un lenguaje compilado como Rust podría sernos de ayuda.
+14.30, sobremesa con [Dmtry Trofimov][dmitry] hablándonos de **[como integrar nuestro Python con Rust][rust]**, un lenguaje de Mozilla que me está llamando la atención últimamente. Python es un lenguaje fabuloso, pero a veces necesitamos velocidad extra y un lenguaje compilado como Rust podría sernos de ayuda.
 
-Seguimos con un par de charlas que no me parecieron especialmente interesantes, por un lado [Lynn Root][lroot] nos habló de como hacen [Metrics driven development][mdd] en Spotify. Por otra parte, [Timo Stollenwerk][timo] nos hablaba de [CI for Django][jenkins], que básicamente fue una charla de Jenkins.
+Seguimos con un par de charlas que no me parecieron especialmente interesantes, por un lado [Lynn Root][lroot] nos habló de como hacen **[Metrics driven development][mdd]** en Spotify, creando metas en función de revisiones periódicas a gráficas. Tal vez demasiado orientada al negocio para lo que buscaba. Por otra parte, [Timo Stollenwerk][timo] nos hablaba de **[CI for Django][jenkins]**, que básicamente fue una charla de Jenkins. Me gusta Jenkins pero ya lo llevo usando varios años y no me contó nada nuevo. Bueno, sí, el plugin de dashboards no lo conocía, lo tengo que probar.
 
-Otra pausa para tomar algo y despejarnos un poco y última charla del día. Otra tecnología de moda (que también usamos en Acceso), esta vez [Elastic Search][elastic] por [Radosław Jankiewicz][radoslaw], introduciéndonos su uso en Python, funciones y clases útiles, etc. Finalizamos con las llamadas **lightning talks**, presentadas con carácter totalmente festivo, donde los ponentes explicaban sus cositas en cosa de 5 minutos.
+Otra pausa para tomar algo y despejarnos un poco y última charla del día. Otra tecnología de moda (que también usamos en Acceso), esta vez **[Elastic Search][elastic]** por [Radosław Jankiewicz][radoslaw], introduciéndonos su uso en Python, funciones y clases útiles, etc. Instructiva. Finalizamos con las llamadas **lightning talks**, presentadas con carácter totalmente festivo, donde los ponentes explicaban sus cositas en cosa de 5 minutos. Consejos para expresiones regulares, apología de las APIs en esperanto (!!) o introducción de proyectos personales. Divertido.
 
 #### Conclusión
 
-Creo que todo estuvo montado muy guay. Había mucha sensación de fiesta y colegueo, cosa que, sinceramente, me esperaba. Stands de empresas interesantes, cerveza, comida, juegos, regalos y sorpresas. Por no hablar de la cantidad de ponentes y el emplazamiento, de primer nivel.
+Creo que todo estuvo montado muy guay. Había mucha sensación de fiesta y colegueo, cosa que, sinceramente, me esperaba. Stands de empresas interesantes, cerveza, comida, juegos, regalos y sorpresas. Por no hablar de la cantidad de ponentes y el emplazamiento, de primer nivel. Como única pega podría decirse que en el hall y algunas salas a veces no llegaba el Wifi bien, pero es comprensible teniendo en cuenta que había más de 1000 individuos, cada uno con su smartphone y muchos con portátiles.
 
 Además, el clima acompañó, tal vez incluso más de la cuenta. Yo ayer me pegué un chapuzón en la playa de un pueblo aquí al lado y me quedé en la gloria. Eso sí, hoy Martes hay unos truenos que no presagian nada bueno, además del consabido **txirimiri**.
 
-Espero que os haya interesado este mini reportaje, voy pitando a seguir con las charlas de hoy Martes :)!
+Espero que os haya interesado este mini reportaje, voy pitando a seguir con las charlas de hoy Martes :)! Seguramente mañana haga un resumen un poquito más breve de lo que ha acontecido hoy.
 
 Por cierto, podéis ver el calendario completo de charlas [aquí][calendario_completo].
 
