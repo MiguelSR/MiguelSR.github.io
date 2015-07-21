@@ -16,7 +16,7 @@ He pensado en ir haciendo cada día un resumen de lo que sucede. Así que, ¡al 
 
 Llegué con tiempo para recoger la entrada y estar desde el primer momento, pero por algún problema con el proveedor no habían podido tener todas las acreditaciones listas, entre ellas la mía ¡argh! No pasa nada, solventado en unos minutos y para dentro. Eso sí, esto provocó un pequeño retraso por el que se tuvo que cortar tiempo de Q&A en algunas charlas. Sin problema.
 
-Tomé un café (muchas barras y mesas, genial gestión) y un breve desayuno y me estuve dando un paseillo por los stands de los sponsors. Todavía no estaba todo montado pero ya tenía buena pinta, Yelp, HP, SkyScanner, e-Frontiers y demás gente andaban por aquí. Tras hacer un poco de tiempo, entramos a la sala principal para la bienvenida.
+Tomé un café (muchas barras y mesas, genial gestión) y un breve desayuno y me estuve dando un paseíllo por los stands de los sponsors. Todavía no estaba todo montado pero ya tenía buena pinta, Yelp, HP, SkyScanner, e-Frontiers y demás gente andaban por aquí. Tras hacer un poco de tiempo, entramos a la sala principal para la bienvenida.
 
 #### Conferencias
 
