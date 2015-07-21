@@ -38,7 +38,7 @@ Otra pausa para tomar algo y despejarnos un poco y última charla del día. Otra
 
 #### Conclusión
 
-Creo que todo estuvo montado muy guay. Había mucha sensación de fiesta, cosa que me esperaba ya que el mundillo Python tiende a ello. Stands de empresas interesantes, cerveza, comida, juegos, regalos y sorpresas. Por no hablar de la cantidad de ponentes y el emplazamiento, de primer nivel.
+Creo que todo estuvo montado muy guay. Había mucha sensación de fiesta y colegueo, cosa que, sinceramente, me esperaba. Stands de empresas interesantes, cerveza, comida, juegos, regalos y sorpresas. Por no hablar de la cantidad de ponentes y el emplazamiento, de primer nivel.
 
 Además, el clima acompañó, tal vez incluso más de la cuenta. Yo ayer me pegué un chapuzón en la playa de un pueblo aquí al lado y me quedé en la gloria. Eso sí, hoy Martes hay unos truenos que no presagian nada bueno, además del consabido **txirimiri**.
 
