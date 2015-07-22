@@ -40,7 +40,7 @@ Mañana jueves espero publicar el resumen del miércoles. Digo que espero hacerl
 [kdale]: https://ep2015.europython.eu/conference/p/-426
 [dataviz]: https://ep2015.europython.eu/conference/talks/data-visualisation-with-python-and-javascript-crafting-a-data-viz-toolchain-for-the-web
 [logging]: https://ep2015.europython.eu/conference/talks/a-deep-look-at-logging
-[sbaerisch]: https://ep2015.europython.eu/conference/p/stefan-baerisch
+[sbaerich]: https://ep2015.europython.eu/conference/p/stefan-baerisch
 [tarpas]: https://ep2015.europython.eu/conference/p/-353
 [testmon]: https://ep2015.europython.eu/conference/talks/mashing-up-pytest-coveragepy-and-astpy-to-take-tdd-to-a-new-level
 [bruynooghe]: https://ep2015.europython.eu/conference/p/-253
