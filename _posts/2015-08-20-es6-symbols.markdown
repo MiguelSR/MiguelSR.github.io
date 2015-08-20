@@ -1,0 +1,101 @@
+---
+layout: post
+comments: true
+title:  "EcmaScript 6: Símbolos"
+date:   2015-08-20 21:00:00
+tags: js es6 symbols simbolos
+---
+
+A veces, al usar un objeto de terceros, he sentido la tentación de añadirle un atributo propio. Por ejemplo, en mi trabajo usamos [Backbone][backbone] y en algunas ocasiones hemos querido añadirle características extra a algunas instancias. Imaginad la siguiente situación. No hace falta que conozcáis Backbone, es sólo un ejemplo.
+
+{% highlight js %}
+// Instanciamos dos vistas
+var viewOne = new Backbone.View();
+var viewTwo = new Backbone.View();
+
+// Renderizamos una de ellas y la marcamos con un flag
+// que nos sacamos de la manga
+viewOne.render();
+viewOne.isRendered = true;
+
+// El programa continúa...
+
+// Al final, buscamos todas las vistas que no hayan sido renderizadas
+// usando nuestro flag, y las renderizamos
+for (view of [viewOne, viewTwo]) {
+    if (!view.isRendered) view.render();
+}
+{% endhighlight %}
+
+Esto podría sacarnos de un apuro, ¡pero también meternos en muchos otros! **¡Añadir atributos nuestros a objetos de terceros es un antipatrón!**. ¿Qué problemas podíamos tener?
+
++ Backbone podría tener implementado un método *isRendered* para las vistas, nos lo habríamos cargado.
++ Backbone podría implementar en el futuro dicho método.
++ JavaScript podría implementar en Object.prototype un método *isRendered*, método que también nos habríamos cargado.
++ Si quisiesemos iterar por las propiedades del objeto, ¡ahora tendríamos este nuevo intruso!
+
+En definitiva, no es una solución apropiada. Con la nueva especificación de JavaScript, podemos usar los **Símbolos** para conseguirlo.
+
+¿Cómo podríamos hacer algo similar a lo del ejemplo anterior pero usando símbolos?
+
+{% highlight js %}
+// Ya no usamos un string como key, si no un symbol
+// Dicho symbol es un identificador único en nuestro scope
+// De este modo, no podríamos pisar un atributo puesto por un tercero
+var isRendered = Symbol("simbolito");
+viewOne[isRendered] = true;
+if (!view[isRendered]) view.render();
+
+// Además, si iterasemos por nuestro objeto, no habría rastro del símbolo
+console.log(Object.keys(view)); // "isRendered" NO aparece
+
+{% endhighlight %}
+
+
+Y aquí algunos ejemplillos más de como funcionan los símbolos.
+
+{% highlight js %}
+// Para instanciarlo
+var mySymbol = Symbol();        // Nótese la falta de new
+var willNotWork = new Symbol(); // TypeError: Symbol is not a constructor
+
+
+// Para usarlo como identificador de un objeto
+var s = Symbol("foobar");
+var myObj = {};
+myObj[s] = "whatever";
+Object.keys(myObj)                  // []
+Object.getOwnPropertyNames(myObj)   // []
+Object.getOwnPropertySymbols(myObj) // Symbol(foobar);
+
+
+// Los símbolos son únicos! La cadena entrecomillada es un mero descriptor
+Symbol("foo") === Symbol("foo"); // false
+
+// No obstante, hay un registro de símbolos que podemos compartir.
+// Funcionalidad a evitar, para mi gusto.
+var sharedSymbol = Symbol.for("I'm shared");
+Symbol.for("I'm shared") === sharedSymbol // true
+Symbol.keyFor(sharedSymbol)               // "I'm shared"
+{% endhighlight %}
+
+JavaScript es un lenguaje temido por muchos y vilipendiado por muchos otros. Una de sus principales fuentes de críticas es la coerción de tipos. Ya sabéis, todo eso de *[] + {}* frente a *{} + []*, etc. Symbol es un nuevo tipo, y no posee esa coerción implícita que a veces nos juega malas pasadas.
+
+{% highlight js %}
+typeof Symbol()     // "symbol"... NO es un objeto!
+Symbol() + 1        // TypeError: Cannot convert a Symbol value to a number
+Symbol() + " hola!" // TypeError: Cannot convert a Symbol value to a string
+
+// Aunque eso sí, podemos forzar el casting a string...
+String(Symbol()) + " hola!"  // "Symbol() hola!"
+
+// ¡Pero no a number!
+Number(Symbol()) + 1 // TypeError: Cannot convert a Symbol value to a number
+{% endhighlight %}
+
+El artículo ha quedado algo caótico, así que sintetizando: ahora tenemos los símbolos, nuevo tipo de datos que sirve como identificador único para atributos de objetos. Mirad los comentarios del código que he puesto y trastead un poco en la consola. Para más info, como siempre os remito a la página de [Mozilla Hacks][fuente_original], y también a la de [MDN][mdn]. Reconozco que esta no es la característica más excitante de ES6, pero aun así merece estar en mi blog.
+
+[backbone]: http://backbonejs.org/
+[^1]: ¡Por favor, no enfurezcáis por la tontería de ejemplo! Es sólo un caso ilustrativo, :).
+[fuente_original]: https://hacks.mozilla.org/2015/06/es6-in-depth-symbols/
+[mdn]: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Symbol
