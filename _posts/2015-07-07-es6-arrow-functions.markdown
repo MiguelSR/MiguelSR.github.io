@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "EcmaScript 6: Funciones flecha"
 date:   2015-07-07 21:00:00
-tags: js es6 arrow functions funciones flecha
+tags: js es6 arrow functions funciones flecha this
 ---
 
 Las funciones flechas son sin lugar a dudas una de las novedades más esperadas de EcmaScript 6. Estoy seguro de que a la inmensa mayoría de las personas que alguna vez haya programado en JavaScript le suena este patrón.
@@ -31,7 +31,7 @@ O le sonarán las funciones **call** y **apply**, o **_.bindAll**, o **$.proxy**
 
 ¿Qué tienen en común todos estos ejemplillos? Pues bien, son maneras de forzar la ejecución de una función con un valor de **this** dado. Este es uno de los puntos claves de JavaScript. A muchos programadores que aun no comprenden el lenguaje les suele parecer bastante raro. Y es que *this*, toma un valor u otro dependiendo de **como se ejecute** una función, no de como se declare.
 
-¿A que viene esta lección gratuita semejante obviedad? Primero, no está de mal recordarlo. Segundo, nuestras **arrow functions**, de repente, anulan este concepto. Refactoricemos el código anterior usando una función flecha gorda.
+¿A que viene esta lección gratuita de semejante obviedad? Primero, no está de más recordarla. Segundo, nuestras **arrow functions**, de repente, anulan este concepto. Refactoricemos el código anterior usando una función flecha gorda.
 
 {% highlight js %}
 var myObject = {}
@@ -79,8 +79,8 @@ console.log(odds); // Array [ 1, 3, 5 ]
 
 Tenemos una manera sencilla de ejecutar callbacks anónimos sin tener que hacer el trámite de guardar el valor de this, hacerle un bind a la función o lo que sea. Eso sí, la sintaxis es bastante parca, no tiene demasiado que ver con el **function** que usábamos hasta ahora. Me imagino que con el tiempo saldrán defensores y detractores, pero definitivamente creo que es un avance en el lenguaje. A mí particularmente me gusta.
 
-A los lectores más inquietos se le habrán ocurrido varias preguntas. *¿Qué pasa con **this**? ¿Y con **arguments**? ¿Devuelven algo las funciones que no sean inline? ¿Como encaja esto con la desestructuración?*. A todos ellos les animo a abrir la consola del Firefox y ponerse a caacharrear un ratillo. Después, cuando se hayan cansado, cogen y se leen [el artículo de Mozilla Hacks][fuente_original].
+A los lectores más inquietos se les habrán ocurrido varias preguntas. *¿Qué pasa con **this**? ¿Y con **arguments**? ¿Devuelven algo las funciones que no sean inline? ¿Como encaja esto con la desestructuración?*. A todos ellos les animo a abrir la consola del Firefox y ponerse a cacharrear un ratillo. Después, cuando se hayan cansado, que cojan y se lean [el artículo de Mozilla Hacks][fuente_original].
 
 ¡A cuidarse!
 
-[fuente_original]: https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/
+[fuente_original]: https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/
