@@ -3,11 +3,7 @@ layout: post
 comments: true
 title:  "EcmaScript 6: Desestructuración"
 date:   2015-06-30 18:30:00
-<<<<<<< HEAD
-tags: js es6 destructuring desestructuracion
-=======
 tags: js es6 destructuring desestructuración
->>>>>>> 03aeefc47f19a2a58a83542c28cf232ed7c2823b
 ---
 
 Uno de las cosas que me fastidian de hacer este blog en castellano es tener que traducir los nombres. Lo digo porque en este artículo vamos a hablar de la **desestructuración**, ¡término algo engorroso! Tampoco es que el inglés **destructuring** sea muy distinto, pero da menos cante. En fin, qué más da.
